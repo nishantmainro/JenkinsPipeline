@@ -189,49 +189,6 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.3.2</version>
 				<executions>
-					<!-- npm install -->
-					<!-- <execution> 
-						<id>npm-install</id>
-						<phase>validate</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>npm</executable>
-							<commandlineArgs>
-								install
-							</commandlineArgs>
-						</configuration>
-					</execution> -->
-					<!-- run unit tests -->
-					<!-- <execution>
-						<id>unit</id>
-						<phase>test</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>node</executable>
-							<commandlineArgs>
-								node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha test/unit
-							</commandlineArgs>
-						</configuration>
-					</execution> -->
-					<!-- run apigeelint -->
-					 <!-- <execution>
-						<id>apigeelint</id>
-						<phase>validate</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>node</executable>
-							<commandlineArgs>
-								./node_modules/apigeelint/cli.js -s ./apiproxy -f table.js
-							</commandlineArgs>
-						</configuration>
-					</execution> -->
-					<!-- run integration tests -->
 					<execution>
 						<id>integration</id>
 						<phase>install</phase>
